@@ -7,6 +7,17 @@
 html{
 	scroll-behavior: smooth;
 }
+a{
+	text-decoration: none;
+}
+
+.btn{
+	border: 1px solid lightgrey;
+	padding: 7px 15px;
+}
+.btn:hover{
+	background-color: orange;
+}
 
 .container{
 	width: 90%;
@@ -23,22 +34,15 @@ nav a{
 
 img{
 	height: 120px;
-	width:75%;
+	width:85%;
 	transition: width, height 0.9s;
 }
 
 img:hover{
 	height: 140px;
-	width:90%;
+	width:100%;
 }
 
-triangle{
-	background-color: skyblue;
-	border-top-right-radius: 80px;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 
-	border-top-left-radius:;
-}
 .showcase{
 	color: antiquewhite;
 	min-height: 450px;
@@ -61,10 +65,10 @@ triangle{
 
 .showcase2s{
 	color: antiquewhite;
-	height: 40vh;
+	height: 57vh;
 	background-image: url(../showcase2.jpg);
 	background-size: cover;
-	background-position:80% 80%;
+	background-position:100% 100%;
 	background-repeat:no-repeat; 
 
 }
@@ -95,13 +99,13 @@ triangle{
 .d-grid{
 	display: grid;
 	grid-template-columns: 1.25fr 1.3fr;
-	grid-gap: 1rem;
+	grid-gap: 0.5rem;
 }
 
 .d-grid2{
 	display: grid;
 	grid-template-columns: 1.2fr 2.3fr;
-	grid-gap: 1rem;
+	grid-gap: 0.5rem;
 }
 .fom input{
 	background-color:inherit;
