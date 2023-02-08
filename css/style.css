@@ -35,7 +35,7 @@ nav a{
 img{
 	height: 120px;
 	width:85%;
-	transition: width, height 0.9s;
+	transition: all ease-out 0.5s;
 }
 
 img:hover{
